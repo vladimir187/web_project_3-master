@@ -1,0 +1,23 @@
+.intro__content-row_text-paragraph{
+    font-size: 16px;
+    color: white;
+    min-width: 288px;
+    line-height: 27px;
+    min-height: auto;
+    padding-top: 35px;
+    margin-bottom: 41px;
+}
+
+@media screen and (min-width: 768px){
+    .intro__content-row_text-paragraph{
+        font-size:14px;
+        line-height: 24px;
+}
+}
+
+@media screen and (min-width: 1024px){
+    
+    .intro__content-row_text-paragraph{
+        max-width: 683px;
+    }
+}

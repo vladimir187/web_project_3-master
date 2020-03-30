@@ -1,0 +1,10 @@
+.video__title-wyoming:active :visited{
+    text-decoration: none;
+    color: white;
+}
+
+.video__title-wyoming{
+    top: 117px;
+    line-height: 20px;
+}
+

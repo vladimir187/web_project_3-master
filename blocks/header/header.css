@@ -1,0 +1,17 @@
+@import "./__logo/header__logo.css";
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 36px;
+}
+
+
+@media screen and (min-width: 425px) {
+    .header{
+        min-height: 46px;
+        margin: auto;
+    }
+}

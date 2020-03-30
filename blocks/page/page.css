@@ -1,0 +1,29 @@
+.page{
+    background-color: #2a2c2f;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    .page{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24px;
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 1024px){
+    .page{
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 36px;
+    }
+}

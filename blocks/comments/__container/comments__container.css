@@ -1,0 +1,14 @@
+.comments__container{
+    min-width: 288px;
+    height: auto;
+    color: white;
+}
+
+@media screen and (min-width: 1024px){
+
+    .comments__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

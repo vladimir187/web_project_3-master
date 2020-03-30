@@ -1,0 +1,25 @@
+@import url("./__title/lead__title.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__image/lead__image.css");
+@import url("./__caption/lead__caption.css");
+
+
+
+
+.lead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    min-width: 288px;
+    margin-top: 48px;
+
+}
+
+@media screen and (min-width: 1280px){
+    .lead{
+        padding-left: 147px;
+        padding-right: 147px;
+    }
+}

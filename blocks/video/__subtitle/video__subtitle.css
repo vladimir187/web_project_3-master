@@ -1,0 +1,21 @@
+.video__subtitle{
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+@media screen and (min-width: 1024px){
+
+
+    .video__subtitle{
+        left: 30px;
+        bottom: 35px;
+        right: 252px;
+        top: 240px;
+    }
+    }

@@ -1,0 +1,23 @@
+.video__duration{
+    position: absolute;
+    top: 106px;
+    left: 16px;
+    right: 192px;
+    bottom: 74px;
+    color: white;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.5em;
+}
+
+@media screen and (min-width: 1024px){
+    .video__duration{
+        position: absolute;
+        top: 125px;
+        left: 30px;
+        right: 382px;
+        bottom: 151px;
+        width: 44px;
+        height: 12px;
+    }
+}

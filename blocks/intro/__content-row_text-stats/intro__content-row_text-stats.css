@@ -1,0 +1,13 @@
+.intro__content-row_text-stats{
+    font-size: 12px;
+    line-height: 19px;
+    min-width: 288px;
+    min-height: auto;
+}
+
+@media screen and (min-width: 768px){
+    .intro__content-row_text-stats{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    }

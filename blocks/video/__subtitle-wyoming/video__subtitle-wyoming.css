@@ -1,0 +1,9 @@
+.video__subtitle-wyoming{
+    top: 165px;
+}
+
+@media screen and (min-width: 1024px){
+    .video__subtitle-wyoming{
+        top: 340px;
+    }
+}

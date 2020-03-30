@@ -1,0 +1,17 @@
+.video__container_wyoming{
+    min-width: 288px;
+    min-height: 192px;
+    background-image: url(../../../images/videoitembg2.jpg);
+    background-color: #2a2c2f;
+    background-blend-mode: overlay;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.video__container_wyoming:hover{
+    opacity: 0.5;
+}

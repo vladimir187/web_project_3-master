@@ -1,0 +1,12 @@
+.footer__copyright{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 768px){
+
+    .footer__copyright{
+        grid-column-start: 7;
+        grid-column-end: 10;
+    }
+}

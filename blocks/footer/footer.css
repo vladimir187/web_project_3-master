@@ -1,0 +1,36 @@
+@import url("./__link/footer__link.css");
+@import url("./__copyright/footer____copyright.css");
+
+
+.footer{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 32px;
+    min-width: 167px;
+    height: auto;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    max-width: 418px;
+}
+
+@media screen and (min-width: 768px){
+    .footer{
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 1fr;
+        min-width: 722px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .footer{
+        min-width: 887px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .footer{
+        min-width: 1184px;
+    }
+}

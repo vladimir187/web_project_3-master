@@ -1,0 +1,12 @@
+.places_paragraph{
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: normal;
+}
+
+@media screen and (min-width: 768px){
+    .places_paragraph{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

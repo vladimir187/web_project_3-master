@@ -1,0 +1,25 @@
+.video__container{
+    display: grid;
+    grid-template-columns:auto;
+    gap: 8px;
+    min-width: 288px;
+    min-height: 192px;
+}
+
+@media screen and (min-width: 768px){
+
+    .video__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        min-height: 200px;
+        min-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .video__container{
+        min-width: 928px;
+        min-height: 288px;
+}}
+

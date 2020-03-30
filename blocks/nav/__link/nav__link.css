@@ -1,0 +1,19 @@
+.nav__link{
+    font-size: 24px;
+    line-height: 23px;
+    margin-left: 18px;
+}
+
+.nav__link:hover{
+    opacity: 0.3;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .nav__link{
+        line-height: 17px;
+        font-size: 18px;
+        margin-left: 16px;
+    }
+}
